@@ -1,0 +1,22 @@
+#+TITLE:  Modelo de trabalho final USCS
+#+AUTHOR: Vinícius Simões
+#+EMAIL:  vinicius.simoes95@gmail.com
+
+* Requisitos
+- Emasc 26 ou maior.
+- Distribuição LaTeX com o abntex2 instalada, recomendo TexStudio.
+
+* Manual de uso
+Este é um modelo de trabalho final para a universidade USCS utilizando o abntex2
+e org mode para edição dos arquivos.
+
+Basta clonar o projeto em uma pasta e editar os arquivos conteudo.org (onde o
+conteúdo do trabalho deve ficar) e o abntex2-meta.org (metadados do trabalho).
+
+Para definir título, autor e data edite o arquivo main.org. A exportação para
+PDF deve ser feita a partir desse arquivo também. Para exportar use =C-c C-e l p=.
+
+As referencias ficam no arquivo references.bib.
+
+* Agradecimentos
+Agraceço ao projeto [[https://github.com/luksamuk/org-abntex2][org-abntex2]] ao qual me baseei para criar esse template.

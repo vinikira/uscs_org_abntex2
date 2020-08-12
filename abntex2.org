@@ -1,0 +1,81 @@
+# Opções globais do Org-Mode
+#+OPTIONS: toc:nil title:nil
+
+#    Opções globais para LaTeX   #
+#+LATEX_CLASS: abntex2
+#+LATEX_CLASS_OPTIONS: [article,12pt,oneside,a4paper,english,brazil]
+
+#           Pacotes              #
+#+LATEX_HEADER: \usepackage{helvet}
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage[brazilian,hyperpageref]{backref}
+#+LATEX_HEADER: \usepackage[alf]{abntex2cite}
+#+LATEX_HEADER: \usepackage{indentfirst}
+#+LATEX_HEADER: \usepackage{url}
+#+LATEX_HEADER: \usepackage{graphicx}
+
+# Configurações de Fontes #
+# helvet
+#+LATEX_HEADER: \renewcommand{\familydefault}{\sfdefault}
+
+# Quebra de URL nas citações
+#+LATEX_HEADER: \def\UrlBreaks{\do\/\do-}
+
+# Espaçamento
+#+LATEX_HEADER: \setlength{\parindent}{1.5cm}
+#+LATEX_HEADER: \setlrmarginsandblock{3cm}{2cm}{*}
+#+LATEX_HEADER: \setulmarginsandblock{2.5cm}{2.5cm}{*}
+#+LATEX_HEADER: \checkandfixthelayout
+
+# Citações
+#+LATEX_HEADER: \renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+#+LATEX_HEADER: \renewcommand{\backref}{}
+#+LATEX_HEADER: \renewcommand*{\backrefalt}[4]{
+#+LATEX_HEADER: 	\ifcase #1
+#+LATEX_HEADER: 		Nenhuma citação no texto.
+#+LATEX_HEADER: 	\or
+#+LATEX_HEADER: 		Citado na página #2.
+#+LATEX_HEADER: 	\else
+#+LATEX_HEADER: 		Citado #1 vezes nas páginas #2.
+#+LATEX_HEADER: 	\fi}
+
+# Posiciona figuras e tabelas no topo da página quando adicionadas sozinhas
+# em um página em branco. Ver https://github.com/abntex/abntex2/issues/170
+#+LATEX_HEADER: \makeatletter
+#+LATEX_HEADER: \setlength{\@fptop}{5pt}
+#+LATEX_HEADER: \makeatother
+
+# Possibilita criação de Quadros e Lista de quadros.
+# Ver https://github.com/abntex/abntex2/issues/176
+#+LATEX_HEADER: \newcommand{\quadroname}{Quadro}
+#+LATEX_HEADER: \newcommand{\listofquadrosname}{Lista de quadros}
+
+#+LATEX_HEADER: \newfloat[chapter]{quadro}{loq}{\quadroname}
+#+LATEX_HEADER: \newlistof{listofquadros}{loq}{\listofquadrosname}
+#+LATEX_HEADER: \newlistentry{quadro}{loq}{0}
+
+# configurações para atender às regras da ABNT
+#+LATEX_HEADER: \setfloatadjustment{quadro}{\centering}
+#+LATEX_HEADER: \counterwithout{quadro}{chapter}
+#+LATEX_HEADER: \renewcommand{\cftquadroname}{\quadroname\space}
+#+LATEX_HEADER: \renewcommand*{\cftquadroaftersnum}{\hfill--\hfill}
+
+# Ver https://github.com/abntex/abntex2/issues/176
+#+LATEX_HEADER: \setfloatlocations{quadro}{hbtp}
+
+# Espaçamentos entre linhas e parágrafos
+# O tamanho do parágrafo é dado por:
+#+LATEX_HEADER: \setlength{\parindent}{1.3cm}
+
+# Controle do espaçamento entre um parágrafo e outro:
+#+LATEX_HEADER: \setlength{\parskip}{0.2cm}
+
+
+# Elementos de preâmbulo #
+
+# Índice
+#+LATEX_HEADER: \makeindex

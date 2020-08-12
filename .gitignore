@@ -1,0 +1,12 @@
+ltximg/
+*.brf
+*.ilg
+*.ind
+*.lof
+*.lot
+*.bbl
+*.tex
+*.pdf
+*~
+*#*#
+_minted-main/

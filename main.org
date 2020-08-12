@@ -1,0 +1,10 @@
+#+TITLE: TITULO DO TRABALHO
+#+AUTHOR: AUTOR DO TRABALHO
+#+DATE: 2020
+
+#+INCLUDE: abntex2.org             :only-contents t
+#+INCLUDE: abntex2-meta.org        :only-contents t
+#+INCLUDE: abntex2-capa.org        :only-contents t
+#+INCLUDE: abntex2-pretextual.org  :only-contents t
+#+INCLUDE: conteudo.org            :only-contents t
+#+INCLUDE: abntex2-postextual.org  :only-contents t

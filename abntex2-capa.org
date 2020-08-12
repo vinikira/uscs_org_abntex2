@@ -1,0 +1,59 @@
+# capa
+
+#+LATEX_HEADER: \renewcommand{\imprimircapa}{
+#+LATEX_HEADER:   \begin{capa}%
+#+LATEX_HEADER:     \center
+#+LATEX_HEADER:     \ABNTEXchapterfont\large\textbf{UNIVERSIDADE MUNICIPAL DE SÃO CAETANO DO SUL – USCS}
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     \ABNTEXchapterfont\Large\textbf{MBA em Arquitetura e Engenharia de Software}
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     \vspace*{1cm}
+#+LATEX_HEADER:     {\ABNTEXchapterfont\large\textbf\imprimirautor}
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     \vfill
+#+LATEX_HEADER:     \begin{center}
+#+LATEX_HEADER:       \ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo
+#+LATEX_HEADER:     \end{center}
+#+LATEX_HEADER:     \begin{center}
+#+LATEX_HEADER:       \Large\imprimirorientador
+#+LATEX_HEADER:     \end{center}
+#+LATEX_HEADER:     \vfill
+#+LATEX_HEADER:     \large\imprimirlocal
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     \large\imprimirdata
+#+LATEX_HEADER:     \vspace*{1cm}
+#+LATEX_HEADER:   \end{capa}
+#+LATEX_HEADER: }
+
+# folha de rosto
+
+#+LATEX_HEADER: \makeatletter
+#+LATEX_HEADER: \renewcommand{\folhaderostocontent}{
+#+LATEX_HEADER:   \begin{center}
+#+LATEX_HEADER:     {\ABNTEXchapterfont\large\textbf{UNIVERSIDADE MUNICIPAL DE SÃO CAETANO DO SUL – USCS}}
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     {\ABNTEXchapterfont\Large\textbf{MBA em Arquitetura e Engenharia de Software}}
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     \vspace*{1cm}
+#+LATEX_HEADER:     {\ABNTEXchapterfont\large\textbf\imprimirautor}
+#+LATEX_HEADER:     \vspace*{\fill}\vspace*{\fill}
+#+LATEX_HEADER:     \begin{center}
+#+LATEX_HEADER:       \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+#+LATEX_HEADER:     \end{center}
+#+LATEX_HEADER:     \vspace*{\fill}
+#+LATEX_HEADER:     \abntex@ifnotempty{\imprimirpreambulo}{
+#+LATEX_HEADER:       \hspace{.45\textwidth}
+#+LATEX_HEADER:       \begin{minipage}{.5\textwidth}
+#+LATEX_HEADER:         \SingleSpacing
+#+LATEX_HEADER:         \imprimirpreambulo
+#+LATEX_HEADER:       \end{minipage}%
+#+LATEX_HEADER:       \vspace*{\fill}
+#+LATEX_HEADER:     }
+#+LATEX_HEADER:     \vfill
+#+LATEX_HEADER:     \large\textbf\imprimirlocal
+#+LATEX_HEADER:     \par
+#+LATEX_HEADER:     \large\textbf\imprimirdata
+#+LATEX_HEADER:     \vspace*{1cm}
+#+LATEX_HEADER:   \end{center}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \makeatother

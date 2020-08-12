@@ -1,0 +1,19 @@
+#     Metadados    #
+#+LATEX_HEADER: \newcommand{\imprimedisciplina}{NOME DA DISCIPLINA}
+#+LATEX_HEADER: \preambulo{Trabalho apresentado à disciplina \imprimedisciplina,
+#+LATEX_HEADER: do curso MBA em Arquitetura e Engenharia de Software, oferecido
+#+LATEX_HEADER: pela Universidade Municipal de São Caetano do Sul – USCS, como requisito para
+#+LATEX_HEADER: conclusão/aprovação, sob a orientação do docente: Prof.(º) \imprimirorientador.}
+
+#+LATEX_HEADER: \local{São Caetano do Sul}
+
+#+LATEX_HEADER: \instituicao{%
+#+LATEX_HEADER:  Universidade Municipal de São Caetano do Sul - USCS
+#+LATEX_HEADER:  \par
+#+LATEX_HEADER:  MBA em Arquitetura e Engenharia de Software
+#+LATEX_HEADER:  \par
+#+LATEX_HEADER:  Programa de Pós-Graduação}
+
+#+LATEX_HEADER: \tipotrabalho{Trabalho Acadêmico}
+#+LATEX_HEADER: \orientador{FULANO}
+#+LATEX_HEADER: \coorientador{CICLANO}

@@ -1,0 +1,79 @@
+* Source Code Blocks
+Você pode adicionar linhas de código assim:
+
+Python:
+#+begin_src python
+def test(a, b):
+  return a + b
+
+test(12, 10)
+#+end_src
+
+Elixir:
+#+begin_src elixir
+def teste(a, b) do
+  a + b
+end
+
+teste(a, b)
+#+end_src
+* Seção
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit
+posuere iaculis. Maecenas mattis vitae purus nec tempus. In ut ultrices
+ligula. Nunc ac venenatis ipsum, quis pharetra nibh. Cras posuere auctor odio,
+sed fringilla augue maximus in. In egestas quis tellus id convallis. Vivamus ac
+sapien sed leo faucibus varius id a lacus. Phasellus ac enim id est efficitur
+vehicula. Phasellus gravida ornare dui, vitae cursus tortor condimentum
+vel. Proin velit enim, semper id vehicula et, mollis a nisi.
+
+Suspendisse sollicitudin congue felis vitae pulvinar. Sed non velit
+diam. Suspendisse congue urna a neque cursus, at hendrerit tellus
+porttitor. Vivamus vitae imperdiet mi, sit amet tempus orci. Fusce volutpat
+metus tortor, pharetra venenatis sapien efficitur et. Fusce et porta
+neque. Phasellus ultrices, diam id placerat viverra, risus nibh fringilla magna,
+a dictum lectus elit id felis. Cras aliquam, tellus in gravida sagittis, diam mi
+scelerisque nunc, ac varius nisi elit vel mauris.
+
+Donec sit amet maximus purus, eu molestie dolor. Etiam id turpis iaculis,
+gravida nibh laoreet, facilisis felis. Nullam mollis ultrices
+eleifend. Pellentesque commodo ante eu purus euismod, id consectetur elit
+hendrerit. Duis vehicula porta odio nec fringilla. Ut id malesuada
+diam. Pellentesque gravida vitae sem vel blandit. Maecenas vel commodo
+diam. Maecenas ac neque ante.
+
+Nullam pretium tellus imperdiet, aliquam ipsum vitae, pretium urna. Nullam
+tincidunt bibendum enim eu hendrerit. Integer sollicitudin gravida est. In erat
+nisi, vestibulum eu maximus non, convallis id neque. Phasellus dapibus elementum
+purus mattis finibus. Praesent porttitor at ex et pretium. Morbi feugiat nulla
+et magna auctor volutpat. Aenean et odio pretium, aliquet nulla id, tempor
+nunc. Donec dapibus libero diam, ac eleifend eros bibendum non. Nulla auctor
+lorem sit amet risus consequat, quis vestibulum leo dapibus. Sed sodales tellus
+ut ex laoreet dapibus. Sed sit amet mi ac mi facilisis euismod.
+
+Quisque eu vehicula nunc, sit amet convallis est. Curabitur posuere diam nisi, a
+vehicula elit porta eget. Maecenas eu accumsan felis. Phasellus sed nisl
+orci. Nullam eget varius turpis. Orci varius natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus. Maecenas aliquam vel tellus tincidunt
+rhoncus. Fusce malesuada purus semper eros consequat, eget egestas turpis
+dignissim. Nunc vel arcu vitae eros pellentesque tincidunt vel eu nulla. Quisque
+eu commodo diam. Nullam congue consequat felis, id rutrum metus pretium
+ac. Nullam bibendum ipsum ut est malesuada, eu egestas velit condimentum. Nullam
+at imperdiet nisl. Nunc egestas mi ipsum, eget consequat nibh commodo
+congue. Nullam commodo condimentum enim a ultrices. Nam maximus tempor ex, a
+hendrerit nulla.
+
+** Sub Seção
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse hendrerit posuere iaculis. Maecenas mattis vitae purus nec tempus. In ut ultrices ligula. Nunc ac venenatis ipsum, quis pharetra nibh. Cras posuere auctor odio, sed fringilla augue maximus in. In egestas quis tellus id convallis. Vivamus ac sapien sed leo faucibus varius id a lacus. Phasellus ac enim id est efficitur vehicula. Phasellus gravida ornare dui, vitae cursus tortor condimentum vel. Proin velit enim, semper id vehicula et, mollis a nisi.
+
+Suspendisse sollicitudin congue felis vitae pulvinar. Sed non velit diam. Suspendisse congue urna a neque cursus, at hendrerit tellus porttitor. Vivamus vitae imperdiet mi, sit amet tempus orci. Fusce volutpat metus tortor, pharetra venenatis sapien efficitur et. Fusce et porta neque. Phasellus ultrices, diam id placerat viverra, risus nibh fringilla magna, a dictum lectus elit id felis. Cras aliquam, tellus in gravida sagittis, diam mi scelerisque nunc, ac varius nisi elit vel mauris.
+
+Donec sit amet maximus purus, eu molestie dolor. Etiam id turpis iaculis, gravida nibh laoreet, facilisis felis. Nullam mollis ultrices eleifend. Pellentesque commodo ante eu purus euismod, id consectetur elit hendrerit. Duis vehicula porta odio nec fringilla. Ut id malesuada diam. Pellentesque gravida vitae sem vel blandit. Maecenas vel commodo diam. Maecenas ac neque ante.
+
+Nullam pretium tellus imperdiet, aliquam ipsum vitae, pretium urna. Nullam tincidunt bibendum enim eu hendrerit. Integer sollicitudin gravida est. In erat nisi, vestibulum eu maximus non, convallis id neque. Phasellus dapibus elementum purus mattis finibus. Praesent porttitor at ex et pretium. Morbi feugiat nulla et magna auctor volutpat. Aenean et odio pretium, aliquet nulla id, tempor nunc. Donec dapibus libero diam, ac eleifend eros bibendum non. Nulla auctor lorem sit amet risus consequat, quis vestibulum leo dapibus. Sed sodales tellus ut ex laoreet dapibus. Sed sit amet mi ac mi facilisis euismod.
+
+Quisque eu vehicula nunc, sit amet convallis est. Curabitur posuere diam nisi, a vehicula elit porta eget. Maecenas eu accumsan felis. Phasellus sed nisl orci. Nullam eget varius turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas aliquam vel tellus tincidunt rhoncus. Fusce malesuada purus semper eros consequat, eget egestas turpis dignissim. Nunc vel arcu vitae eros pellentesque tincidunt vel eu nulla. Quisque eu commodo diam. Nullam congue consequat felis, id rutrum metus pretium ac. Nullam bibendum ipsum ut est malesuada, eu egestas velit condimentum. Nullam at imperdiet nisl. Nunc egestas mi ipsum, eget consequat nibh commodo congue. Nullam commodo condimentum enim a ultrices. Nam maximus tempor ex, a hendrerit nulla.
+
+* Citações
+As citações ficam no arquivo references.bib.
+
+Exemplo de citação: Segundo \cite{exemplo} afirma, quisque eu vehicula nunc, sit amet convallis est.

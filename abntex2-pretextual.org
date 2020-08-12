@@ -1,0 +1,16 @@
+#   Elementos pré-textuais   #
+\selectlanguage{brazil}
+
+\frenchspacing
+
+\pretextual
+
+\imprimircapa
+
+\imprimirfolhaderosto
+
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+\textual
