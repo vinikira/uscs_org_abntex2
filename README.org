@@ -3,7 +3,7 @@
 #+EMAIL:  vinicius.simoes95@gmail.com
 
 * Requisitos
-- Emasc 26 ou maior.
+- Emacs 26 ou maior.
 - Distribuição LaTeX com o abntex2 instalada, recomendo TexStudio.
 
 * Manual de uso
